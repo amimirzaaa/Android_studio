@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdiwiyataActivity"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Adiwiyata SMK N 2 Yogyakarta"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_percent="0.3"
+        app:srcCompat="@drawable/adiwiyata"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:text="Kamis, 15 April 2021 penanaman pohon secara simbolik oleh Kepala sekolah SMK N 2 Yogyakarta di kampus SMK N 2 Yogyakarta Jetis Yogyakarta. Penanaman pohon ini sebagai wujud SMK N 2 Yogyakarta melaksanakan program Adiwiyata yang targetnya pada tahun ini mendapatkan lisensi sekolah Adiwiyata dari Dinas Lingkungan Hidup Kota Yogyakarta dan Propinsi DIY.\n“Tahun 2021 ini target kita adalah sebagai sekolah adiwiyata yang diakui oleh Dinas Lingkungan Hidup Kota Yogyakarta dan Propinsi DIY, sehingga berikutnya kami bisa melaksanakan program Adiwiyata secara mandiri”. Penjelasan kepala SMK N 2 Yogyakarta Dodot Yuliantoro, S.Pd, MT"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="KEMBALI"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
