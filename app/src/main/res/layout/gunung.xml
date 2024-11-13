@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GunungActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="10 Gunung Tertinggi di Indonesia"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:text="Puncak Jaya Wijaya (Cartensz Pyramid)" />
+
+                <ImageView
+                    android:id="@+id/cartenz"
+                    android:layout_width="330dp"
+                    android:layout_height="230dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/cartenz" />
+
+                <TextView
+                    android:id="@+id/c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puncak Jaya, yang juga dikenal sebagai Carstensz Pyramid, berdiri sebagai puncak tertinggi di Indonesia dengan ketinggian mencapai 4.884 meter di atas permukaan laut (mdpl). Terletak di Provinsi Papua, gunung ini merupakan gunung kapur terbesar di Indonesia. Dengan koordinat S 04°04.733 dan E 137°09.572, Puncak Jaya memiliki salju abadi di puncaknya, sebuah fenomena yang langka di daerah tropis." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:text="Gunung Kerinci" />
+
+                <ImageView
+                    android:id="@+id/kerinci"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/kerinci" />
+
+                <TextView
+                    android:id="@+id/k"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Menyandang gelar sebagai gunung tertinggi di Pulau Sumatra sekaligus gunung berapi tertinggi di Indonesia, Gunung Kerinci memiliki ketinggian 3.805 mdpl. Gunung ini terletak di perbatasan antara Provinsi Jambi dan Sumatra Barat, menjadikannya puncak tertinggi kedua di Indonesia." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:text="Gunung Rinjani" />
+
+                <ImageView
+                    android:id="@+id/rinjani"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/rinjani" />
+
+                <TextView
+                    android:id="@+id/r"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Terletak di Lombok, Nusa Tenggara Barat, Gunung Rinjani adalah gunung tertinggi ketiga di Indonesia dengan ketinggian 3.762 mdpl. Gunung ini terkenal dengan pemandangannya yang memukau, terdiri dari padang rumput yang luas dan hutan tropis yang asri. Gunung Rinjani merupakan bagian dari Taman Nasional Gunung Rinjani yang mencakup area seluas sekitar 41.330 hektar." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:text="Gunung Semeru" />
+
+                <ImageView
+                    android:id="@+id/semeru"
+                    android:layout_width="320dp"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/semeru" />
+
+                <TextView
+                    android:id="@+id/s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gunung Semeru, yang puncaknya dikenal dengan nama Mahameru, adalah gunung tertinggi di Pulau Jawa dengan ketinggian 3.676 mdpl. Terletak di Jawa Timur, gunung ini masuk dalam kawasan Taman Nasional Bromo Tengger Semeru dan menjadi gunung tertinggi keempat di Indonesia. Secara administratif, Gunung Semeru berada di Kabupaten Malang dan Lumajang." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:text="Gunung Sanggar" />
+
+                <ImageView
+                    android:id="@+id/sanggar"
+                    android:layout_width="320dp"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/sanggar" />
+
+                <TextView
+                    android:id="@+id/sa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Meskipun kurang dikenal dibandingkan gunung lainnya, Gunung Sanggar di Nusa Tenggara Barat tetap menempati posisi kelima sebagai gunung tertinggi di Indonesia dengan ketinggian 3.564 mdpl. Gunung ini menawarkan keindahan yang masih alami bagi mereka yang ingin menikmati tantangan pendakian." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:text="Gunung Latimojong (Bulu Rantemario)" />
+
+                <ImageView
+                    android:id="@+id/latimojong"
+                    android:layout_width="320dp"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/latimojong" />
+
+                <TextView
+                    android:id="@+id/l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berada di Sulawesi Selatan, Gunung Latimojong atau Bulu Rantemario memiliki ketinggian 3.478 mdpl dan dikenal sebagai puncak tertinggi di wilayah Sulawesi. Gunung ini terletak di Kabupaten Enrekang, dan untuk mencapai kaki gunung, pendaki harus menempuh perjalanan sekitar 10 jam dari Kota Makassar." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:text="Gunung Slamet" />
+
+                <ImageView
+                    android:id="@+id/slamet"
+                    android:layout_width="320dp"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/slamet" />
+
+                <TextView
+                    android:id="@+id/sl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gunung Slamet berdiri sebagai gunung tertinggi kedua di Pulau Jawa dengan ketinggian 3.428 mdpl. Terletak di antara lima kabupaten di Jawa Tengah yaitu Brebes, Banyumas, Purbalingga, Tegal, dan Pemalang, Gunung Slamet menempati urutan ketujuh sebagai gunung tertinggi di Indonesia. Pendaki sering memulai perjalanan mereka dari Desa Bambangan, yang terletak di Kabupaten Purbalingga." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:text="Gunung Sumbing" />
+
+                <ImageView
+                    android:id="@+id/sumbing"
+                    android:layout_width="320dp"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/sumbing" />
+
+                <TextView
+                    android:id="@+id/su"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gunung Sumbing, dengan ketinggian 3.371 mdpl, adalah gunung tertinggi ketiga di Pulau Jawa. Terletak di perbatasan antara Kabupaten Wonosobo, Magelang, dan Temanggung di Jawa Tengah, gunung ini dikenal sebagai gunung tertinggi kedelapan di Indonesia." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:text="Gunung Raung" />
+
+                <ImageView
+                    android:id="@+id/raung"
+                    android:layout_width="320dp"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/raung" />
+
+                <TextView
+                    android:id="@+id/ra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Terkenal sebagai salah satu gunung berapi aktif di Indonesia, Gunung Raung memiliki ketinggian 3.332 mdpl dan terletak di Jawa Timur. Gunung ini mencakup tiga kabupaten, yaitu Banyuwangi, Bondowoso, dan Jember, serta merupakan gunung tertinggi kesembilan di Indonesia. Gunung Raung dikenal dengan kawah kalderanya yang luas dan sering menjadi tujuan pendakian bagi para pecinta alam." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="45dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:text="Gunung Lawu" />
+
+                <ImageView
+                    android:id="@+id/lawu"
+                    android:layout_width="320dp"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/lawu" />
+
+                <TextView
+                    android:id="@+id/la"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gunung Lawu dengan ketinggian 3.265 mdpl, terletak di perbatasan antara Jawa Tengah dan Jawa Timur. Puncak gunung ini dikenal sebagai salah satu tempat suci dan memiliki jalur pendakian yang sering digunakan, menjadikannya gunung tertinggi kesepuluh di Indonesia. Pendakian menuju puncak Gunung Lawu dapat dimulai dari beberapa jalur, dengan yang paling terkenal adalah dari Cemoro Sewu di Magetan dan Cemoro Kandang di Karanganyar." />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/goback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Kembali"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kuliner">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="4 Makanan Khas Yogyakarta Yang Wajib kamu Coba"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_marginBottom="5dp"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/bpk"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:srcCompat="@drawable/bakpia"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="36dp" />
+
+                <ScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:layout_margin="5dp"
+                        android:text="Bakpia adalah kue kecil berbentuk bulat yang memiliki isian manis. Makanan ini berasal dari Tionghoa dan diperkenalkan ke Indonesia oleh para imigran Tionghoa. Nama bakpia berasal dari bahasa Hokkien,bak yaitu yang berarti daging dan pia yang berarti kue. Namun, di Yogyakarta, bakpia biasanya diisi dengan kacang hijau manis. Bakpia Pathok adalah jenis bakpia yang terkenal di Yogyakarta, dinamai sesuai dengan daerah Pathok di mana banyak toko bakpia berada. Bakpia Pathok pertama kali dibuat pada tahun 1940-an dan sejak itu menjadi oleh-oleh khas Yogyakarta yang sangat populer."
+                        tools:layout_editor_absoluteX="153dp"
+                        tools:layout_editor_absoluteY="365dp" />
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_marginBottom="5dp"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/gudeg"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:srcCompat="@drawable/gudeg"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="36dp" />
+
+                <ScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:layout_margin="5dp"
+                        android:text="Gudeg adalah makanan tradisional yang berasal dari Yogyakarta dan Jawa Tengah. Gudeg dibuat dari nangka muda yang dimasak dengan santan dan berbagai rempah hingga menghasilkan hidangan yang manis dan gurih. Menurut sejarah, gudeg sudah ada sejak abad ke-16 pada masa Kerajaan Mataram di Yogyakarta. Pada waktu itu, daerah sekitar Yogyakarta ditanami banyak pohon nangka, sehingga masyarakat memanfaatkannya sebagai bahan utama untuk membuat gudeg. Gudeg sering disajikan dengan nasi, ayam kampung, telur, tahu, dan tempe."
+                        tools:layout_editor_absoluteX="153dp"
+                        tools:layout_editor_absoluteY="365dp" />
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_marginBottom="5dp"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/klathak"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:srcCompat="@drawable/klathak"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="36dp" />
+
+                <ScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:layout_margin="5dp"
+                        android:text="Sate Klathak adalah jenis sate khas dari Bantul, Yogyakarta. Tidak seperti sate pada umumnya yang menggunakan tusuk bambu, sate klathak menggunakan jeruji besi sebagai tusuknya. Sate ini dibuat dari daging kambing muda yang dibumbui dengan garam dan merica, kemudian dipanggang di atas bara api. Nama klathak berasal dari suara daging yang berbunyi saat dipanggang. Sate Klathak pertama kali diperkenalkan oleh Pak Bari di Pasar Jejeran, Pleret, Bantul, dan kini menjadi salah satu makanan khas yang sangat digemari oleh masyarakat dan wisatawan."
+                        tools:layout_editor_absoluteX="153dp"
+                        tools:layout_editor_absoluteY="365dp" />
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/yanko"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/yanko"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="36dp" />
+
+                <ScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:layout_margin="5dp"
+                        android:text="Yangko adalah makanan manis tradisional yang berasal dari Yogyakarta. Yangko terbuat dari tepung ketan yang memiliki tekstur kenyal dan rasa manis. Makanan ini mirip dengan mochi Jepang. Yangko biasanya diisi dengan kacang dan gula serta diberi warna-warni cerah. Sejarah Yangko tidak sejelas gudeg atau bakpia, namun sudah menjadi bagian dari kuliner tradisional Yogyakarta selama beberapa generasi. Yangko sering dijadikan oleh-oleh dan dapat ditemukan di berbagai toko oleh-oleh di Yogyakarta."
+                        tools:layout_editor_absoluteX="153dp"
+                        tools:layout_editor_absoluteY="365dp" />
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Kembali"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

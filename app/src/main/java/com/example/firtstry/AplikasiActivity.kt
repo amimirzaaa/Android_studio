@@ -41,5 +41,17 @@ class AplikasiActivity : AppCompatActivity() {
             val intent4 = Intent (this, AdiwiyataActivity::class.java)
             startActivity(intent4)
         }
+
+        val gunung = findViewById<ImageView>(R.id.gun)
+        gunung.setOnClickListener {
+            val intent5 = Intent (this, GunungActivity::class.java)
+            startActivity(intent5)
+        }
+
+        val kul = findViewById<ImageView>(R.id.kuli)
+        kul.setOnClickListener {
+            val intent6 = Intent (this, kuliner::class.java)
+            startActivity(intent6)
+        }
     }
 }
